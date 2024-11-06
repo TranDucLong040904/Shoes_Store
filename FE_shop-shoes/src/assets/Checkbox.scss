@@ -1,0 +1,11 @@
+
+input[type="checkbox"] + label::before {
+    content: "";
+    display: inline-block;
+    width: 20px; /* Điều chỉnh chiều rộng của checkbox */
+    height: 20px; /* Điều chỉnh chiều cao của checkbox */
+    border: 2px solid #333; /* Màu và độ dày đường viền checkbox */
+    background-color: #fff; /* Màu nền của checkbox */
+    margin-right: 5px; /* Khoảng cách giữa checkbox và label */
+    cursor: pointer;
+}

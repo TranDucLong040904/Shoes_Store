@@ -1,0 +1,75 @@
+@import '../../styles/setting';
+
+.ps-features{
+    background-color: #f8fafc;
+    height: 14rem;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 68px;
+
+    .ps-container{
+        // justify-content: space-around;
+        text-align: center;
+
+        .ps{
+            width: 400px;
+
+            i{
+                font-size: 50px;
+                margin-bottom: 5px;
+            }
+
+            h3{
+                font-size: 21px;
+                line-height: 1;
+                font-weight: 500;
+                color: rgb(255, 195, 0);
+                text-transform: uppercase;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .content-title{
+                font-size: 12px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+
+            .t-two{
+                .content-t{
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+
+//     .wid {
+//   width: 400px;
+// }
+
+// .icons{
+//   font-size: 50px;
+//   margin-bottom: 5px;
+// }
+
+// .title{
+//   font-size: 21px;
+//   line-height: 1;
+//   font-weight: 500;
+//   color: rgb(255, 195, 0);
+//   text-transform: uppercase;
+//   margin-top: 5px;
+// }
+
+// .content-title{
+//   font-size: 12px;
+//   font-weight: 700;
+//   margin-bottom: 4px;
+// }
+
+// .content-t{
+//   font-size: 12px;
+// }
+}

@@ -1,0 +1,69 @@
+.manage-order {
+  width: 100%;
+  background-color: #f8fafc;
+  overflow-y: auto;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.95);
+}
+.manage-order .main-order {
+  margin-top: 18px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  height: 36.5rem;
+  box-shadow: 3px #f8fafc;
+  padding: 22px 22px 0 22px;
+}
+.manage-order .main-order .main-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 15px 0;
+  height: 12rem;
+}
+.manage-order .main-order .main-card .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.95);
+}
+.manage-order .main-order .main-card .card .card-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.manage-order .main-order .main-card .card .card-inner h3 {
+  font-size: 18px;
+}
+.manage-order .main-order .main-card .card .card-inner > .card_icon {
+  font-size: 25px;
+}
+.manage-order .main-order .main-card .card:first-child {
+  background-color: #2962ff;
+}
+.manage-order .main-order .main-card .card:nth-child(2) {
+  background-color: #ff6d00;
+}
+.manage-order .main-order .main-card .card:nth-child(3) {
+  background-color: #2e7d32;
+}
+.manage-order .main-order .main-card .card:nth-child(4) {
+  background-color: #d50000;
+}
+.manage-order .main-order .content-order {
+  padding: 23px 23px 0px 23px;
+}
+.manage-order .main-order .content-order .title-order {
+  display: flex;
+  justify-content: space-between;
+}
+.manage-order .main-order .content-order .title-order h3 {
+  color: black;
+}
+.manage-order .main-order .content-order .title-order .filter-order {
+  color: black;
+}
+.manage-order .main-order .content-order .code-order button {
+  color: #2962ff;
+}/*# sourceMappingURL=ManageOrder.css.map */

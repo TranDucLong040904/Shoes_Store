@@ -1,0 +1,30 @@
+@import '../../styles/setting';
+
+.create-product{
+
+    .add-product{
+        margin-top: 18px;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 5px;
+        // height: 46.5rem;
+        box-shadow: 3px #f8fafc;
+        padding: 22px 22px 0 22px;
+    }
+}
+
+.size{
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.signle-image{
+    border: 1px solid saddlebrown;
+}
+
+.multiple-image{
+    border: 1px solid saddlebrown;
+}
+
+.star{
+    color: red;
+}

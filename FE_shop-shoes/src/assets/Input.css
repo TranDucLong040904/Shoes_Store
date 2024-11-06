@@ -1,0 +1,12 @@
+.sidebar-label-container {
+  display: block;
+  margin: 15px 0 15px 0;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.sidebar-label-container input {
+  margin-right: 5px;
+}/*# sourceMappingURL=Input.css.map */

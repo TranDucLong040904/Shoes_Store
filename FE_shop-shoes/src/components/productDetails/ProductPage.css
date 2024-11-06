@@ -1,0 +1,109 @@
+.product-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-page .page {
+  display: flex;
+  margin-top: 7rem;
+  width: 1200px;
+}
+.product-page .page .page-left {
+  width: 250px;
+}
+.product-page .page .page-left .category h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  background: black;
+  color: white;
+  padding: 3px 8px;
+}
+.product-page .page .page-left .category ul li {
+  margin: 15px 0 15px 0;
+  padding: 5px 0 5px 0;
+  font-weight: 700;
+  cursor: pointer;
+  transform: scale(1);
+}
+.product-page .page .page-left .category ul li:hover {
+  transform: scale(1.2);
+}
+.product-page .page .page-left .price h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  background: black;
+  color: white;
+  padding: 3px 8px;
+}
+.product-page .page .page-left .size h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  background: black;
+  color: white;
+  padding: 3px 8px;
+}
+.product-page .page .page-right {
+  width: 950px;
+}
+.product-page .page .page-right .banner {
+  height: 500px;
+  margin: 0 45px 0 45px;
+}
+.product-page .page .page-right .banner img {
+  height: 500px;
+}
+.product-page .page .page-right .product-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.product-page .page .page-right .product-list .list-item {
+  border: 1px solid #e7e7e7;
+  margin: 20px;
+  width: 260px;
+}
+.product-page .page .page-right .product-list .list-item:hover {
+  box-shadow: 0 0 2px;
+}
+.product-page .page .page-right .product-list .list-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.product-page .page .page-right .product-list .list-item .list-desc {
+  text-align: center;
+}
+.product-page .page .page-right .product-list .list-item .list-desc p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.product-page .page .page-right .product-list .list-item .price {
+  text-align: center;
+}
+.product-page .page .page-right .product-list .list-item .price .price-new {
+  font-size: 20px;
+  color: rgb(226, 41, 61);
+  font-weight: 600;
+  margin: 0 7px 0 0;
+  order: 1;
+}
+.product-page .page .page-right .product-list .list-item .price .price-old {
+  font-size: 16px;
+  color: rgb(105, 105, 115);
+  font-weight: 400;
+  text-decoration: line-through;
+  margin: 0;
+  order: 2;
+}
+.product-page .page .page-right .paginate {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=ProductPage.css.map */

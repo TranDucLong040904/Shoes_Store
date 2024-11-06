@@ -1,0 +1,51 @@
+@import "../../styles/setting";
+
+.manage-product{
+
+    .content-product{
+        margin-top: 18px;
+        // background: rgba(255, 255, 255, 0.95);
+        border-radius: 5px;
+        height: 36.5rem;
+        box-shadow: 3px #f8fafc;
+        padding: 22px 22px 0 22px;
+        color: black;
+
+        .product-search{
+            display: flex;
+            justify-content: space-between;
+            .product__filter{
+                display: flex;
+
+                h5{
+                    font-size: 16px;
+                    margin-top: 8px;
+                }
+
+                input{
+                    padding: 5px;
+                    border-radius: 3px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .product__sort{
+                display: flex;
+                gap: 5px;
+                h5{
+                    font-size: 16px;
+                    margin-top: 8px;
+                    
+                }
+
+                .sort__band{
+                    padding: 5px;
+                    border-radius: 5px;
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+}

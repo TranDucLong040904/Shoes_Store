@@ -1,0 +1,19 @@
+@import "../../styles/setting";
+
+.manage-user{
+
+    .content-user{
+        margin-top: 18px;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 5px;
+        height: 36.5rem;
+        box-shadow: 3px #f8fafc;
+        padding: 22px 22px 0 22px;
+
+        .title-user{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+    }
+}

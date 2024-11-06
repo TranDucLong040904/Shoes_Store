@@ -1,0 +1,27 @@
+.reviews{
+    padding-top: 50px;
+    height: 20rem;
+    .review{
+        border-top: 1px solid rgba(0,0,0,.09);
+        .customer{
+            display: flex;
+            text-align: left;
+            margin-left: 5px;
+            .icons{
+                font-size: 40px;
+            }
+
+            span{
+                font-size: 15px;
+            }
+
+            .star{
+                font-size: 12px;
+            }
+        
+            .time{
+                font-size: 12px;
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+.product{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    
+    h2{
+        text-align: center;
+        margin: 20px 0 20px 20px;
+    }
+
+    .list{
+        // --spacing: 4.9rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        // align-items: stretch;
+        // justify-content: flex-start;
+        flex-wrap: wrap;
+        // margin: 0 var(--spacing);
+
+        .list-item{
+            // flex: 1 0 calc(33.333% - 10px);
+            border: 1px solid #e7e7e7;
+            // margin: 20px;
+            width: 300px;
+            // height: 26rem;
+            margin: 10px 25px 30px 25px;
+
+            &:hover{
+                box-shadow: 0 0 2px;
+            }
+
+            .cart-shopping{
+                position: absolute;
+                margin: 10px;
+                font-size: 20px;
+                transform: translate(-20px);
+                transition: 0.3s;
+                opacity: 0;
+            }
+
+            img{
+                width: 100%;
+            }
+
+            .list-desc{
+                text-align: center;
+                
+                p{
+                    font-size: 15px;
+                }
+            }
+
+            .price{
+                text-align: center;
+
+                .price-new{
+                    font-size: 20px;
+                    color: rgba(226, 41, 61, 1);
+                    font-weight: 600;
+                    margin: 0 7px 0 0;
+                    order: 1;
+                }
+
+                .price-old{
+                    font-size: 16px;
+                    color: rgba(105, 105, 115, 1);
+                    font-weight: 400;
+                    text-decoration: line-through;
+                    margin: 0;
+                    order: 2;               
+                }
+            }
+        }
+    }
+
+    .next-category{
+        text-align: center;
+        // height: 100px;
+        border: 1px solid;
+        // margin: 0 40rem 0 40rem;
+        // padding: 10px 0 10px 0;
+        
+
+        a{
+            width: 200px;
+            
+
+            @keyframes slideRight {
+                0% {
+                    transform: translateX(0);
+                }
+                 50% {
+                    transform: translateX(200px); /* Đi sang phải 200px */
+                }
+                100% {
+                    transform: translateX(0); /* Trở về vị trí cũ */
+                }
+            }
+            
+            .animated {
+                animation: slideRight 2s ease infinite; /* Thời gian 2 giây, lặp vô hạn */
+            }
+        }
+    }
+}

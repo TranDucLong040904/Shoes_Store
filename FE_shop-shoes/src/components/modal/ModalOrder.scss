@@ -1,0 +1,32 @@
+.modal-order{
+    border-radius: none;
+}
+
+.modal-content{
+    border-radius: 0 !important;
+}
+
+.order-detail{
+    .info{
+        display: flex;
+        
+        .info-ncc{
+            width: 400px;
+        }
+
+        .info-customer{
+            width: 400px;
+        }
+
+        .info-delivery{
+            width: 400px;
+        }
+    }
+
+    .product-order{
+
+        .total-money{
+            float: right;
+        }
+    }
+}

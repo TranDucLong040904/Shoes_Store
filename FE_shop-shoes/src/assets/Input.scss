@@ -1,0 +1,16 @@
+
+.sidebar-label-container {
+  display: block;
+  margin: 15px 0 15px 0;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  input{
+    margin-right: 5px;
+  }
+}
+

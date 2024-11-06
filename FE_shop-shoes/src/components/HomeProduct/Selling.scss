@@ -1,0 +1,82 @@
+.sell-products{
+    
+    .slide-product{
+        width: 1320px;
+        margin: auto;
+        .list{
+        --spacing: 4.9rem;
+        // font-size: 62.5%;
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0 var(--spacing);
+
+        .list-item{
+            border: 1px solid #e7e7e7;
+            margin: 20px;
+            // width: calc(27% - var(--spacing) *2);
+            width: 300px;
+            height: 26rem;
+
+            &:hover{
+                box-shadow: 0 0 2px;
+            }
+
+            .cart-shopping{
+                // display: flex;
+                // flex-flow: column;
+                position: absolute;
+                margin: 10px;
+                font-size: 20px;
+                transform: translate(-20px);
+                transition: 0.3s;
+                opacity: 0;
+            }
+
+            // &:hover .cart-shopping{
+            //         transform: translateX(2px);
+            //         cursor: pointer;
+            //         opacity: 1;
+            //     }
+
+            img{
+                width: 100%;
+
+                // &:hover{
+                //     transform: scale(1.1);
+                // }
+            }
+
+            .list-desc{
+                text-align: center;
+                
+                p{
+                    font-size: 15px;
+                }
+            }
+
+            .price{
+                text-align: center;
+
+                .price-new{
+                    font-size: 20px;
+                    color: rgba(226, 41, 61, 1);
+                    font-weight: 600;
+                    margin: 0 7px 0 0;
+                    order: 1;
+                }
+
+                .price-old{
+                    font-size: 16px;
+                    color: rgba(105, 105, 115, 1);
+                    font-weight: 400;
+                    text-decoration: line-through;
+                    margin: 0;
+                    order: 2;               
+                }
+            }
+        }
+    }
+    }
+}
